@@ -260,7 +260,7 @@ iframe {
     padding: 10rem 0;
 }
 
-.causes__container {
+.main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -273,12 +273,12 @@ iframe {
     padding: 0 50px;
 }
 
-.causes__content {
+.main__content {
     color: #fff;
     width: 100%;
 }
 
-.causes__content h1 {
+.main__content h1 {
     font-size: 2rem;
     background-color: #b1d1c9;
     background-size: 100%;
@@ -290,12 +290,12 @@ iframe {
     margin-bottom: 32px;
 }
 
-.causes__content p {
+.main__content p {
     margin-top: 1rem;
     font-size: 18px;
 }
 
-.causes__btn {
+.main__btn {
     font-size: 1.8rem;
     background: #00ffbf;
     /* background: -webkit-linear-gradient(to right, #191654, #43C6AC);
@@ -312,14 +312,14 @@ iframe {
     outline: none;
 }
 
-.causes__btn a {
+.main__btn a {
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
 }
 
-.causes__btn:after {
+.main__btn:after {
     position: absolute;
     content: '';
     top: 0;
@@ -331,19 +331,19 @@ iframe {
     border-radius: 4px;
 }
 
-.causes__btn:hover {
+.main__btn:hover {
     color: #fff;
 }
 
-.causes__btn:hover:after {
+.main__btn:hover:after {
     width: 100%;
 }
 
-.causes__img--container {
+.main__img--container {
     text-align: center;
 }
 
-.causes__img--card {
+.main__img--card {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -363,7 +363,7 @@ iframe {
     padding: 10rem 0;
 }
 
-.effects__container {
+.main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -376,12 +376,12 @@ iframe {
     padding: 0 50px;
 }
 
-.effects__content {
+.main__content {
     color: #fff;
     width: 100%;
 }
 
-.effects__content h1 {
+.main__content h1 {
     font-size: 2rem;
     background-color: #b1d1c9;
     background-size: 100%;
@@ -393,16 +393,16 @@ iframe {
     margin-bottom: 32px;
 }
 
-.effects__content p {
+.main__content p {
     margin-top: 1rem;
     font-size: 18px;
 }
 
-.effects__img--container {
+.main__img--container {
     text-align: center;
 }
 
-.effects__img--card {
+.main__img--card {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -422,7 +422,7 @@ iframe {
     padding: 10rem 0;
 }
 
-.vital-signs__container {
+.main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -435,12 +435,12 @@ iframe {
     padding: 0 50px;
 }
 
-.vital-signs__content {
+.main__content {
     color: #fff;
     width: 100%;
 }
 
-.vital-signs__content h1 {
+.main__content h1 {
     font-size: 2rem;
     background-color: #b1d1c9;
     background-size: 100%;
@@ -452,16 +452,16 @@ iframe {
     margin-bottom: 32px;
 }
 
-.vital-signs__content p {
+.main__content p {
     margin-top: 1rem;
     font-size: 18px;
 }
 
-.vital-signs__img--container {
+.main__img--container {
     text-align: center;
 }
 
-.vital-signs__img--card {
+.main__img--card {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -479,6 +479,266 @@ iframe {
 .main3 {
     background-color: #131313;
     padding: 10rem 0;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content {
+    color: #fff;
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    background-color: #b1d1c9;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.main__btn {
+    font-size: 1.8rem;
+    background: #00ffbf;
+    /* background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC); */
+    background: -webkit-linear-gradient(to right, #069c77, #f10e4b);
+    background: linear-gradient(to right, #069c77, #f10e4b);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #04aaec;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: #fff;
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    /* background-image: linear-gradient(to right, #069c77 0%,#f10e4b 100%);     */
+    background-image: url(https://resizeimage.net/viewimg/Asgiakfg2hoViVRs/nm0en/76a29daa-7128-4213-b343-f66507.png);
+}
+
+/* Earth Science In Action Section */
+
+.main4 {
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content {
+    color: #fff;
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    background-color: #b1d1c9;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.main__btn {
+    font-size: 1.8rem;
+    background: #00ffbf;
+    /* background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC); */
+    background: -webkit-linear-gradient(to right, #069c77, #f10e4b);
+    background: linear-gradient(to right, #069c77, #f10e4b);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #04aaec;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: #fff;
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    /* background-image: linear-gradient(to right, #069c77 0%,#f10e4b 100%);     */
+    background-image: url(https://climatescience.org/climate-science/icons/climate-science-icon-384x384.png);
+    background-repeat: no-repeat;
+}
+
+/* Mapping Tropical Forest Health with NASA Satellite Data Section */
+
+.main5 {
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content {
+    color: #fff;
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    background-color: #b1d1c9;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    /* background-image: linear-gradient(to right, #069c77 0%,#f10e4b 100%);     */
+    background-image: url(https://qph.fs.quoracdn.net/main-qimg-cb1524e66231668f4fa51bad2afef304-lq);
+    background-repeat: no-repeat;
 }
 
 /* Mobile Responsive */
@@ -529,11 +789,6 @@ iframe {
         height: 250px;
     }
 
-    .fa-users,
-    .fa-layer-group {
-        font-size: 4rem;
-    }
-
     .main__content h1 {
         font-size: 2rem;
         margin-top: 3rem;
@@ -551,266 +806,6 @@ iframe {
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
-}
-
-.evidence__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.evidence__content {
-    color: #fff;
-    width: 100%;
-}
-
-.evidence__content h1 {
-    font-size: 2rem;
-    background-color: #b1d1c9;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-}
-
-.evidence__content p {
-    margin-top: 1rem;
-    font-size: 18px;
-}
-
-.evidence__btn {
-    font-size: 1.8rem;
-    background: #00ffbf;
-    /* background: -webkit-linear-gradient(to right, #191654, #43C6AC);
-    background: linear-gradient(to right, #191654, #43C6AC); */
-    background: -webkit-linear-gradient(to right, #069c77, #f10e4b);
-    background: linear-gradient(to right, #069c77, #f10e4b);
-    padding: 20px 60px;
-    border: none;
-    border-radius: 4px;
-    margin-top: 2rem;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-.evidence__btn a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-.evidence__btn:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #04aaec;
-    transition: all 0.35s;
-    border-radius: 4px;
-}
-
-.evidence__btn:hover {
-    color: #fff;
-}
-
-.evidence__btn:hover:after {
-    width: 100%;
-}
-
-.evidence__img--container {
-    text-align: center;
-}
-
-.evidence__img--card {
-    margin: 10px;
-    height: 500px;
-    width: 500px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    /* background-image: linear-gradient(to right, #069c77 0%,#f10e4b 100%);     */
-    background-image: url(https://resizeimage.net/viewimg/Asgiakfg2hoViVRs/nm0en/76a29daa-7128-4213-b343-f66507.png);
-}
-
-/* Earth Science In Action Section */
-
-.main4 {
-    background-color: #131313;
-    padding: 10rem 0;
-}
-
-.eiaction__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.eiaction__content {
-    color: #fff;
-    width: 100%;
-}
-
-.eiaction__content h1 {
-    font-size: 2rem;
-    background-color: #b1d1c9;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-}
-
-.eiaction__content p {
-    margin-top: 1rem;
-    font-size: 18px;
-}
-
-.eiaction__btn {
-    font-size: 1.8rem;
-    background: #00ffbf;
-    /* background: -webkit-linear-gradient(to right, #191654, #43C6AC);
-    background: linear-gradient(to right, #191654, #43C6AC); */
-    background: -webkit-linear-gradient(to right, #069c77, #f10e4b);
-    background: linear-gradient(to right, #069c77, #f10e4b);
-    padding: 20px 60px;
-    border: none;
-    border-radius: 4px;
-    margin-top: 2rem;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-.eiaction__btn a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-.eiaction__btn:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #04aaec;
-    transition: all 0.35s;
-    border-radius: 4px;
-}
-
-.eiaction__btn:hover {
-    color: #fff;
-}
-
-.eiaction__btn:hover:after {
-    width: 100%;
-}
-
-.eiaction__img--container {
-    text-align: center;
-}
-
-.eiaction__img--card {
-    margin: 10px;
-    height: 500px;
-    width: 500px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    /* background-image: linear-gradient(to right, #069c77 0%,#f10e4b 100%);     */
-    background-image: url(https://climatescience.org/climate-science/icons/climate-science-icon-384x384.png);
-    background-repeat: no-repeat;
-}
-
-/* Mapping Tropical Forest Health with NASA Satellite Data Section */
-
-.main5 {
-    background-color: #131313;
-    padding: 10rem 0;
-}
-
-.tropical__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.tropical__content {
-    color: #fff;
-    width: 100%;
-}
-
-.tropical__content h1 {
-    font-size: 2rem;
-    background-color: #b1d1c9;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-}
-
-.tropical__content p {
-    margin-top: 1rem;
-    font-size: 18px;
-}
-
-.tropical__img--container {
-    text-align: center;
-}
-
-.tropical__img--card {
-    margin: 10px;
-    height: 500px;
-    width: 500px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    /* background-image: linear-gradient(to right, #069c77 0%,#f10e4b 100%);     */
-    background-image: url(https://qph.fs.quoracdn.net/main-qimg-cb1524e66231668f4fa51bad2afef304-lq);
-    background-repeat: no-repeat;
 }
 
 /* Mitigation and Adaptation Section */
