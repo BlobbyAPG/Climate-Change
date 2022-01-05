@@ -200,15 +200,6 @@
     padding: 100px 0;
 }
 
-.counters {
-    display: flex;
-    justify-content: center;
-}
-
-iframe {
-    background-color: #353434;
-}
-
 .hero__container {
     display: flex;
     flex-direction: column;
